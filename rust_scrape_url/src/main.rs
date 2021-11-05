@@ -1,6 +1,10 @@
 use std::fs;
 
 fn main() {
+    scrape_fn();
+}
+
+fn scrape_fn() {
     let url = "https://www.rust-lang.org/";
     let md_file_output = "./rust.md";
 
